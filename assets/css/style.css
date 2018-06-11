@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Playlist Caps";
+    src: url("../fonts/Playlist Caps.otf")
+}
+
+@font-face {
+    font-family: "Playlist Ornament";
+    src: url("../fonts/Playlist Ornament.otf")
+}
+
+@font-face {
+    font-family: "Playlist Script";
+    src: url("../fonts/Playlist Script.otf")
+}
+
+@font-face {
+    font-family: "The Bold Font";
+    src: url("../fonts/theboldfont.ttf")
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #d94e4b;
+    padding-top: 30vh;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding-top: 5vh;
+}
+
+h2, h3 {
+    color: #BEEEEB;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+header {
+    font-family: "The Bold Font";
+    background-image: url("../images/Colossus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
+}
+
+h4 {
+    font-family: "Playlist Script";
+    color: #d94e4b;
+    font-size: 2rem;
+}
+
+.about {
+    font-family: "Playlist Script";
+}
+
+h5 {
+    font-family: "The Bold Font";
+}
+
+.img-fluid {
+    height: auto;
+    width: 300px;
+}
+
+.hr {
+    height: 4vh;
+    background-color: #d94e4b;
+}
+.link {
+    background-color: #BEEEEB;
+    color: black;
+    text-decoration-style: unset;
+}
+.link:hover {
+    text-decoration: unset;
+    background-color: #a7d1ce;
+    color: black;
+    font-size: 1.2rem;
+}
