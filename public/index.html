@@ -2,36 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
+    <title>CV | Louise Roy</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../assets/images/Louise_photo.png"/>
 </head>
 <body>
-
+<ul class="nav nav-inline justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link active" href="index.html">Accueil</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="about.html">À propos de moi</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="pro.html">Ce que je sais faire</a>
+    </li>
+</ul>
 <header>
     <h1 class="text-center"> &lt;?php echo 'HELLO EVERYONE !'; ?&gt; </h1>
     <h2 class="text-center">LOUISE ROY</h2>
     <h3 class="text-center">DEVELOPPEUSE PHP</h3>
 </header>
 <div class="container">
-    <div class="row align-items-center">
-        <div class="col-5 moi ">
+    <div class="row">
+        <div class="col-5 moi my-5">
             <img src="../assets/images/Louise_photo.png" class="img-fluid text-center" alt="">
             <div class="hr"></div>
         </div>
         <div class="col-7">
             <div class="row">
-                <h4 class="pt-5 pb-3">A propos de moi </h4>
+                <h4 class="pt-5 my-5">A propos de moi </h4>
             </div>
-            <div class="row">
+            <div class="row my-5">
                 <p> Moi c'est Louise Roy, (presque) developpeuse, (presque) 19 ans. Il y a maintenant quelques mois,
-                    j'ai decouvert l'univers merveilleux du developpement. J'ai trouvé la Wild Code School, une
-                    formation qui m'a permis d'acquérir de bonne base en HTML, CSS, PHP, MySQL,... J'ai aussi appris
+                    j'ai decouvert l'univers merveilleux du developpement. <br>
+                    J'ai trouvé la Wild Code School, une formation qui m'a permis d'acquérir de bonne base en HTML, CSS,
+                    PHP, MySQL,... J'ai aussi appris
                     plein d'autres choses comme la gestion d'un projet en methode agile ou à faire des blagues de
-                    developpeur. Je recherche un stage ou une entreprise pour me prendre en alternance, j'ai donc voulu
-                    faire ce site pour pouvoir raconter un peu (beaucoup) plus de chose que sur mon CV. Ici, vous allez
+                    developpeur.<br>
+                    Je recherche un stage ou une entreprise pour me prendre en alternance, j'ai donc voulu
+                    faire ce site pour pouvoir raconter un peu plus de chose que sur mon CV. Ici, vous allez
                     apprendre à plus me connaitre alors bon voyage ! </p>
             </div>
         </div>
@@ -41,33 +56,65 @@
         <h3 class="p-5 m-auto about">En savoir plus ?</h3>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 clavier">
             <div class="row">
-                <h5 class="m-3">Mon experience</h5>
+                <h5 class="my-5 mx-auto">Mon experience</h5>
             </div>
             <div class="row">
-                <p>Pendant ma formation, et même avant, j'ai appris beaucoup de chose donc si vous voulez en savoir plus
+                <p class="mx-4">Pendant ma formation, et même avant, j'ai appris beaucoup de chose donc si vous voulez en savoir plus
                     sur mes competences et mes projets vous etes au bon endroit ! </p>
             </div>
-            <div class="row">
-                <a class="m-3 link p-2 " href="pro.html">savoir ce que je sais faire !</a>
+            <div class="row justify-content-center">
+                <a class="my-5 link1 p-2 " href="pro.html">savoir ce que je sais faire !</a>
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-6 poile">
             <div class="row">
-                <h5 class="m-3">Ma personalité</h5>
+                <h5 class="my-5 mx-auto">Ma personalité</h5>
             </div>
             <div class="row">
-                <p>Et oui je ne suis pas que developpeuse, j'ai des passions, des qualités, des défaults, et plein
+                <p class="mx-4">Et oui je ne suis pas que developpeuse, j'ai des passions, des qualités, des défaults, et plein
                     d'autres choses à vous faire decouvrir. Venez les decouvrir ici !</p>
             </div>
-            <div class="row">
-                <a href="about.html " class="m-3 p-2 link">savoir ce que je suis !</a>
+            <div class="row justify-content-center">
+                <a href="about.html " class="my-5 p-2 link2">savoir qui je suis !</a>
             </div>
         </div>
     </div>
 
 </div>
+<footer class="pb-1 pt-5 px-4">
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col">
+                <h6 class="text-right">Me retrouver sur les reseaux</h6>
+                <ul class="list-unstyled d-flex justify-content-end my-4">
+
+                    <li class="m-2">
+                        <a href="https://github.com/Louisejesuis">
+                            <i class="fab fa-github fa-3x"></i>
+                        </a>
+                    </li>
+                    <li class="m-2">
+                        <a href="https://www.linkedin.com/in/louise-roy-5660b9156/">
+                            <i class="fab fa-linkedin fa-3x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h6>Me contacter</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="far fa-envelope-open mr-2 fa-lg"></i><a
+                            href="mailto:louise.roy@hotmail.fr">louise.roy@hotmail.fr</a></li>
+                    <li class="mb-2"><i class="fas fa-phone-volume mr-2 fa-lg"></i>07 77 38 60 24</li>
+                    <li class="mb-2"><i class="fas fa-map-pin mr-2 fa-lg"></i>Orléans - France</li>
+                </ul>
+            </div>
+        </div>
+        <p><small>© 2018 Louise Roy</small></p>
+    </div>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"

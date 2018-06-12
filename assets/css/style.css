@@ -53,7 +53,7 @@ header {
 h4 {
     font-family: "Playlist Script";
     color: #d94e4b;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .about {
@@ -61,7 +61,9 @@ h4 {
 }
 
 h5 {
-    font-family: "The Bold Font";
+    font-family: "The Bold Font", serif;
+    font-size: 2rem;
+
 }
 
 .img-fluid {
@@ -70,17 +72,46 @@ h5 {
 }
 
 .hr {
-    height: 4vh;
+    height: 3vh;
     background-color: #d94e4b;
 }
-.link {
+
+.link1, .link2 {
     background-color: #BEEEEB;
     color: black;
     text-decoration-style: unset;
+    width: 20vw;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
 }
-.link:hover {
+
+.link1:hover, .link2:hover {
     text-decoration: unset;
     background-color: #a7d1ce;
     color: black;
-    font-size: 1.2rem;
+}
+
+.clavier {
+    background-image: url("../images/clavier.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.poile {
+    background-image: url("../images/poile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+footer {
+    background-color: #c0cfc8;
+}
+.nav-link {
+    color: black;
+    font-family: "Open Sans";
+}
+.nav-link:hover{
+    color: #d94e4b;
 }
